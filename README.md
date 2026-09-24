@@ -3,7 +3,7 @@
 [![Build Status](https://img.shields.io/badge/build-passing-brightgreen)](#building-from-source)
 [![Platform](https://img.shields.io/badge/platform-Windows%20%7C%20Linux-blue)](#prerequisites)
 [![Language](https://img.shields.io/badge/language-C11-orange)](#what-static-recompilation-means-here)
-[![License](https://img.shields.io/badge/license-MIT-green)](LICENSE)
+[![License](https://img.shields.io/badge/license-PolyForm--Noncommercial--1.0.0-blue)](LICENSE)
 
 Native C static recompilation of **Super Mario Kart (SNES, USA)** into standalone, native PC executable using the [snesrecomp](https://github.com/mstan/snesrecomp) framework.
 
@@ -134,7 +134,7 @@ ninja smk_play
 SuperMarioKartRecomp/
 ├── CMakeLists.txt              # Unified CMake build configuration
 ├── README.md                   # Project documentation & guide
-├── LICENSE                     # MIT open-source license
+├── LICENSE                     # PolyForm Noncommercial License 1.0.0
 ├── build.ps1 / build.sh        # Quick build helpers
 ├── config/                     # Recompiler function symbols & configuration
 ├── src/
@@ -157,6 +157,17 @@ SuperMarioKartRecomp/
 ├── snesrecomp/                 # SNESRecomp core LLE execution framework
 └── tools/                      # Validation, regression and profiling scripts
 ```
+
+---
+
+## License
+
+This project is a recompiled derivative work based on [snesrecomp](https://github.com/mstan/snesrecomp) and is licensed under the **PolyForm Noncommercial License 1.0.0**.
+
+* **Source-Available / Noncommercial**: Any noncommercial purpose (personal use, personal study, research, private entertainment, non-profit community testing) is permitted.
+* **Commercial Use Prohibited**: Commercial use, monetized distribution, or deriving profit from this software is strictly prohibited under the upstream license terms.
+* **Upstream Copyright**: `Copyright (c) 2026 Matthew Stanley`.
+* For the full legal text, see the [LICENSE](LICENSE) file.
 
 ---
 
