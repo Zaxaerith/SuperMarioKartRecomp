@@ -1,0 +1,37 @@
+# Build output directories
+build/
+bin/
+out/
+
+# Compiled objects, binaries and libraries
+*.o
+*.obj
+*.a
+*.lib
+*.so
+*.dylib
+*.dll
+*.exe
+
+# ROM files (Legal notice: Never distribute copyrighted game ROMs)
+*.sfc
+*.smc
+*.rom
+*.swc
+*.fig
+
+# Tool caches, logs and diagnostics
+*.log
+.snesrecomp-cache.json
+__pycache__/
+*.py[cod]
+artifacts/
+.cache/
+
+# IDE and OS metadata
+.vscode/
+.vs/
+.idea/
+*.user
+Thumbs.db
+.DS_Store
